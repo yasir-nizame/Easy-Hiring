@@ -1,0 +1,1 @@
+All the files and functions which deal with the API and outer world will go in this folder. Make sure to make separate files for each feature. Like the file dealing with user api endpoints should be userApi.js and so on.

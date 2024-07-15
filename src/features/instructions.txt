@@ -1,0 +1,1 @@
+All the files and components should go in their feature folder. Like components related to Job should go in Job folder and so on.
