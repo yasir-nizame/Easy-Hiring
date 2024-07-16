@@ -85,6 +85,14 @@ const SmallCards = ({ cardData }) => {
                             <dd className="text-xs text-gray-500">{card.readingTime}</dd>
                         </div>
                     </dl>
+                    <div className="mt-8 flex flex-wrap justify-start gap-4">
+                        <Link
+                            className="block w-30 mt-3 visible md:invisible rounded bg-secondary1 px-4 py-3 text-sm font-medium text-white shadow hover:bg-secondary focus:outline-none focus:ring active:bg-secondary1 sm:w-auto"
+                            to="/applynow"
+                        >
+                            Apply Now
+                        </Link>
+                    </div>
                 </a>
             ))}
         </>

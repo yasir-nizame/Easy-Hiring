@@ -70,7 +70,7 @@ const cardData = [
 ];
 const Cardsdata = () => {
     return (
-        <div className='flex md:flex-row justify-center '>
+        <div className='flex md:flex-row justify-center flex-col '>
             <div>
                 <SmallCards cardData={cardData} />
             </div>
