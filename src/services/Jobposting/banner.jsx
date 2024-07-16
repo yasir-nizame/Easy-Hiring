@@ -28,7 +28,7 @@ function Banner() {
               </p>
               <div className="mt-8 flex flex-wrap gap-4 justify-center sm:justify-start">
                 <a
-                  href="#"
+                  href="/postjob"
                   className="block w-full sm:w-auto rounded bg-primary px-12 py-3 text-sm font-medium text-white shadow hover:bg-secondary focus:outline-none focus:ring active:bg-primary"
                 >
                   Post a Job
