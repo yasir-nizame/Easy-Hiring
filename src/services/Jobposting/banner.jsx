@@ -8,7 +8,7 @@ function Banner() {
       <img
         src={bannerimg}
         alt="Banner"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover filter blur-lg"
       />
       <div className="absolute inset-0 bg-white/75 2xl:bg-transparent 2xl:from-white/95 2xl:to-white/25"></div>
 
@@ -16,13 +16,13 @@ function Banner() {
         <div className="max-w-xl text-center sm:text-left flex-1">
           <div className="flex items-center justify-center sm:justify-start">
             <div>
-              <h1 className="text-3xl font-extrabold sm:text-5xl">
+              <h1 className="text-3xl font-extrabold sm:text-5xl text-white">
                 Connecting talent with opportunity.
               </h1>
-              <h2 className="text-3xl font-extrabold sm:text-5xl text-secondary">
+              <h2 className="text-3xl font-extrabold sm:text-5xl text-primary">
                 Your perfect fit is just a click away.
               </h2>
-              <p className="mt-4 max-w-lg sm:text-xl/relaxed">
+              <p className="mt-4 max-w-lg sm:text-xl/relaxed text-white">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Nesciunt illo tenetur fuga ducimus numquam ea!
               </p>
