@@ -1,11 +1,5 @@
 {
-    "version": 2,
-    "name": "EASY-HIRING",
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/index.html"
-      }
-    ]
-  }
-  
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
